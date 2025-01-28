@@ -6,7 +6,7 @@ def xor_encrypt_decrypt(data, key):
 with open('sahil.py.enc', 'r') as file:
     encrypted_script_base64 = file.read()
 
-key = '@SahilModzOwner' 
+key = 'FIH_PRIVATE_DDOS' 
 encrypted_script = base64.b64decode(encrypted_script_base64).decode()
 decrypted_script = xor_encrypt_decrypt(encrypted_script, key)
 
